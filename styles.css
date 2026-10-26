@@ -14,12 +14,6 @@
   display: none;
 }
 
-/*
-  Only reveal the delete button on devices with a real hover. On iOS, a tap
-  first applies :hover, and because that reveals new content WebKit swallows
-  the click, so opening a file took two taps. Touch users can remove entries
-  from the long-press menu instead.
-*/
 @media (hover: hover) {
   .recent-files-title:hover .recent-files-file-delete {
     display: flex;
